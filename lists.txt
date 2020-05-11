@@ -7,5 +7,5 @@
 3. Upload success:
     - 4112316025 - Wahyu Prasojo.docx // main file
 
-4. Next, inspect file:
-    - 4112316025 - Wahyu Prasojo.docx // inspect main file
+4. Try creating bot by learning php language:
+    - PHP Lang
