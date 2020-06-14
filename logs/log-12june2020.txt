@@ -1,0 +1,695 @@
+root@botphp:/media/sf_bpbdsmgbot# php index.php
+PHPTelebot version 1.3
+Mode    : Long Polling
+Debug   : ON
+
+--------------------
+ Query ID : 999995236
+--------------------
+{"update_id":999995236,"message":{"message_id":553,"from":{"id":1204376244,"is_bot":false,"first_name":"Sigit","last_name":"Arif H.","language_code":"id"},"chat":{"id":1204376244,"first_name":"Sigit","last_name":"Arif H.","type":"private"},"date":1591884594,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995236
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 1204376244
+)
+
+Response: {"ok":true,"result":{"message_id":554,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1204376244,"first_name":"Sigit","last_name":"Arif H.","type":"private"},"date":1591924908,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995237
+--------------------
+{"update_id":999995237,"message":{"message_id":555,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591926582,"text":"\/time","entities":[{"offset":0,"length":5,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995237
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Waktu Sekarang, pukul 08:49:43 WIB. Tanggal,12 Jun 2020
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":556,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591926585,"text":"Waktu Sekarang, pukul 08:49:43 WIB. Tanggal,12 Jun 2020"}}
+
+--------------------
+ Query ID : 999995238
+--------------------
+{"update_id":999995238,"message":{"message_id":557,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591926595,"text":"mantap"}}
+--------------------
+ Response for : 999995238
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995239
+--------------------
+{"update_id":999995239,"message":{"message_id":558,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591926680,"text":"Cuaca"}}
+--------------------
+ Response for : 999995239
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Informasi Cuaca terbaru di Kota Semarang,
+Sumber: bmkg
+https://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":560,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591926702,"text":"Informasi Cuaca terbaru di Kota Semarang, \nSumber: bmkg \nhttps://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35","entities":[{"offset":57,"length":85,"type":"url"}]}}
+
+--------------------
+ Query ID : 999995240
+--------------------
+{"update_id":999995240,"message":{"message_id":559,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591926690,"text":"Home"}}
+--------------------
+ Response for : 999995240
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":561,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591926705,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995241
+--------------------
+{"update_id":999995241,"message":{"message_id":562,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591929098,"text":"Contact"}}
+--------------------
+ Response for : 999995241
+--------------------
+Method: sendMessage
+Data: (
+    [text] => [Silakan kirim email anda kesini](mailto:bpbdsemarangkota@gmail.com)
+    [parse_mode] => Markdown
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":563,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591929099,"text":"Silakan kirim email anda kesini","entities":[{"offset":0,"length":31,"type":"text_link","url":"http://mailto:bpbdsemarangkota@gmail.com/"}]}}
+
+--------------------
+ Query ID : 999995242
+--------------------
+{"update_id":999995242,"message":{"message_id":564,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930334,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995242
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":565,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930335,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995243
+--------------------
+{"update_id":999995243,"message":{"message_id":566,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930341,"text":"Kabar Terbaru"}}
+--------------------
+ Response for : 999995243
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Kabar Terbaru Untuk:
+
+    [reply_markup] => {"keyboard":[["Bencana","Cuaca"],["Home"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":567,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930342,"text":"Kabar Terbaru Untuk:"}}
+
+--------------------
+ Query ID : 999995244
+--------------------
+{"update_id":999995244,"message":{"message_id":568,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930349,"text":"Cuaca"}}
+--------------------
+ Response for : 999995244
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Informasi Cuaca terbaru di Kota Semarang,
+Sumber: bmkg
+https://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":569,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930350,"text":"Informasi Cuaca terbaru di Kota Semarang, \nSumber: bmkg \nhttps://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35","entities":[{"offset":57,"length":85,"type":"url"}]}}
+Operation timed out after 300209 milliseconds with 0 out of 0 bytes received
+
+--------------------
+ Query ID : 999995245
+--------------------
+{"update_id":999995245,"message":{"message_id":570,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930367,"text":"Bencana"}}
+--------------------
+ Response for : 999995245
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Dapatkan update terbaru dari BPBD Kota Semarang, Aktifkan notifikasi di Channel ini:
+https://t.me/BPBD_Semarang/
+    [chat_id] => 159865468
+)
+
+Response:
+
+--------------------
+ Query ID : 999995246
+--------------------
+{"update_id":999995246,"message":{"message_id":571,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930381,"text":"Home"}}
+--------------------
+ Response for : 999995246
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":584,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930671,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995247
+--------------------
+{"update_id":999995247,"message":{"message_id":572,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930400,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995247
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":585,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930672,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995248
+--------------------
+{"update_id":999995248,"message":{"message_id":573,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930449,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995248
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":586,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930673,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995249
+--------------------
+{"update_id":999995249,"message":{"message_id":574,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930470,"text":"Bencana"}}
+--------------------
+ Response for : 999995249
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Dapatkan update terbaru dari BPBD Kota Semarang, Aktifkan notifikasi di Channel ini:
+https://t.me/BPBD_Semarang/
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":587,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930675,"text":"Dapatkan update terbaru dari BPBD Kota Semarang, Aktifkan notifikasi di Channel ini: \nhttps://t.me/BPBD_Semarang/","entities":[{"offset":86,"length":27,"type":"url"}]}}
+
+--------------------
+ Query ID : 999995250
+--------------------
+{"update_id":999995250,"message":{"message_id":575,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930472,"text":"Cuaca"}}
+--------------------
+ Response for : 999995250
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Informasi Cuaca terbaru di Kota Semarang,
+Sumber: bmkg
+https://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":588,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930676,"text":"Informasi Cuaca terbaru di Kota Semarang, \nSumber: bmkg \nhttps://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35","entities":[{"offset":57,"length":85,"type":"url"}]}}
+
+--------------------
+ Query ID : 999995251
+--------------------
+{"update_id":999995251,"message":{"message_id":576,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930474,"text":"Home"}}
+--------------------
+ Response for : 999995251
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":589,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930677,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995252
+--------------------
+{"update_id":999995252,"message":{"message_id":577,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930476,"text":"Home"}}
+--------------------
+ Response for : 999995252
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":590,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930679,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995253
+--------------------
+{"update_id":999995253,"message":{"message_id":578,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930476,"text":"Home"}}
+--------------------
+ Response for : 999995253
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":591,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930680,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995254
+--------------------
+{"update_id":999995254,"message":{"message_id":579,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930476,"text":"Home"}}
+--------------------
+ Response for : 999995254
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":592,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930682,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995255
+--------------------
+{"update_id":999995255,"message":{"message_id":580,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930476,"text":"Home"}}
+--------------------
+ Response for : 999995255
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":593,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930683,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995256
+--------------------
+{"update_id":999995256,"message":{"message_id":581,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930477,"text":"Home"}}
+--------------------
+ Response for : 999995256
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":594,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930684,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995257
+--------------------
+{"update_id":999995257,"message":{"message_id":582,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930477,"text":"Home"}}
+--------------------
+ Response for : 999995257
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":595,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930685,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995258
+--------------------
+{"update_id":999995258,"message":{"message_id":583,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930477,"text":"Home"}}
+--------------------
+ Response for : 999995258
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":596,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930686,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995259
+--------------------
+{"update_id":999995259,"message":{"message_id":597,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930790,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995259
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":598,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930791,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995260
+--------------------
+{"update_id":999995260,"message":{"message_id":599,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930798,"text":"Contact"}}
+--------------------
+ Response for : 999995260
+--------------------
+Method: sendMessage
+Data: (
+    [text] => [Silakan kirim email anda kesini](mailto:bpbdsemarangkota@gmail.com)
+    [parse_mode] => Markdown
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":600,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930799,"text":"Silakan kirim email anda kesini","entities":[{"offset":0,"length":31,"type":"text_link","url":"http://mailto:bpbdsemarangkota@gmail.com/"}]}}
+
+--------------------
+ Query ID : 999995261
+--------------------
+{"update_id":999995261,"message":{"message_id":601,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930807,"text":"Website"}}
+--------------------
+ Response for : 999995261
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Silakan akses link dibawah
+    [reply_markup] => {"inline_keyboard":[[{"text":"\ud83c\udf10 Web BPBD Semarang","url":"https:\/\/bpbd.semarangkota.go.id"}]]}
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":602,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930809,"text":"Silakan akses link dibawah","reply_markup":{"inline_keyboard":[[{"text":"\ud83c\udf10 Web BPBD Semarang","url":"https://bpbd.semarangkota.go.id/"}]]}}}
+
+--------------------
+ Query ID : 999995262
+--------------------
+{"update_id":999995262,"message":{"message_id":603,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930814,"text":"Contact"}}
+--------------------
+ Response for : 999995262
+--------------------
+Method: sendMessage
+Data: (
+    [text] => [Silakan kirim email anda kesini](mailto:bpbdsemarangkota@gmail.com)
+    [parse_mode] => Markdown
+    [chat_id] => 159865468
+)
+
+Response: {"ok":true,"result":{"message_id":604,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930815,"text":"Silakan kirim email anda kesini","entities":[{"offset":0,"length":31,"type":"text_link","url":"http://mailto:bpbdsemarangkota@gmail.com/"}]}}
+
+--------------------
+ Query ID : 999995263
+--------------------
+{"update_id":999995263,"message":{"message_id":605,"from":{"id":159865468,"is_bot":false,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","language_code":"id"},"chat":{"id":159865468,"first_name":"Aida Eva","last_name":"Dianti","username":"Aida_eva","type":"private"},"date":1591930825,"text":"aidadianti0@gmail.com","entities":[{"offset":0,"length":21,"type":"email"}]}}
+--------------------
+ Response for : 999995263
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995264
+--------------------
+{"update_id":999995264,"message":{"message_id":606,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591931286,"text":"Kabar Terbaru"}}
+--------------------
+ Response for : 999995264
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Kabar Terbaru Untuk:
+
+    [reply_markup] => {"keyboard":[["Bencana","Cuaca"],["Home"]],"resize_keyboard":true}
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":607,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591931288,"text":"Kabar Terbaru Untuk:"}}
+
+--------------------
+ Query ID : 999995265
+--------------------
+{"update_id":999995265,"message":{"message_id":608,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591934551,"text":"Home"}}
+--------------------
+ Response for : 999995265
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":609,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591934552,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995266
+--------------------
+{"update_id":999995266,"message":{"message_id":610,"from":{"id":1204376244,"is_bot":false,"first_name":"Sigit","last_name":"Arif H.","language_code":"id"},"chat":{"id":1204376244,"first_name":"Sigit","last_name":"Arif H.","type":"private"},"date":1591936451,"text":"Kabar Terbaru"}}
+--------------------
+ Response for : 999995266
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Kabar Terbaru Untuk:
+
+    [reply_markup] => {"keyboard":[["Bencana","Cuaca"],["Home"]],"resize_keyboard":true}
+    [chat_id] => 1204376244
+)
+
+Response: {"ok":true,"result":{"message_id":611,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1204376244,"first_name":"Sigit","last_name":"Arif H.","type":"private"},"date":1591936452,"text":"Kabar Terbaru Untuk:"}}
+
+--------------------
+ Query ID : 999995267
+--------------------
+{"update_id":999995267,"message":{"message_id":612,"from":{"id":1204376244,"is_bot":false,"first_name":"Sigit","last_name":"Arif H.","language_code":"id"},"chat":{"id":1204376244,"first_name":"Sigit","last_name":"Arif H.","type":"private"},"date":1591936456,"text":"Cuaca"}}
+--------------------
+ Response for : 999995267
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Informasi Cuaca terbaru di Kota Semarang,
+Sumber: bmkg
+https://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35
+    [chat_id] => 1204376244
+)
+
+Response: {"ok":true,"result":{"message_id":613,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1204376244,"first_name":"Sigit","last_name":"Arif H.","type":"private"},"date":1591936457,"text":"Informasi Cuaca terbaru di Kota Semarang, \nSumber: bmkg \nhttps://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35","entities":[{"offset":57,"length":85,"type":"url"}]}}
+
+--------------------
+ Query ID : 999995268
+--------------------
+{"update_id":999995268,"message":{"message_id":614,"from":{"id":1204376244,"is_bot":false,"first_name":"Sigit","last_name":"Arif H.","language_code":"id"},"chat":{"id":1204376244,"first_name":"Sigit","last_name":"Arif H.","type":"private"},"date":1591936467,"text":"Bencana"}}
+--------------------
+ Response for : 999995268
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Dapatkan update terbaru dari BPBD Kota Semarang, Aktifkan notifikasi di Channel ini:
+https://t.me/BPBD_Semarang/
+    [chat_id] => 1204376244
+)
+
+Response: {"ok":true,"result":{"message_id":615,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1204376244,"first_name":"Sigit","last_name":"Arif H.","type":"private"},"date":1591936469,"text":"Dapatkan update terbaru dari BPBD Kota Semarang, Aktifkan notifikasi di Channel ini: \nhttps://t.me/BPBD_Semarang/","entities":[{"offset":86,"length":27,"type":"url"}]}}
+
+root@botphp:/media/sf_bpbdsmgbot# php index.php
+PHPTelebot version 1.3
+Mode    : Long Polling
+Debug   : ON
+
+--------------------
+ Query ID : 999995279
+--------------------
+{"update_id":999995279,"message":{"message_id":636,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954095,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995279
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 1149501355
+)
+
+Response: {"ok":true,"result":{"message_id":637,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954097,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995280
+--------------------
+{"update_id":999995280,"message":{"message_id":638,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954104,"text":"Website"}}
+--------------------
+ Response for : 999995280
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Silakan akses link dibawah
+    [reply_markup] => {"inline_keyboard":[[{"text":"\ud83c\udf10 Web BPBD Semarang","url":"https:\/\/bpbd.semarangkota.go.id"}]]}
+    [chat_id] => 1149501355
+)
+
+Response: {"ok":true,"result":{"message_id":639,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954105,"text":"Silakan akses link dibawah","reply_markup":{"inline_keyboard":[[{"text":"\ud83c\udf10 Web BPBD Semarang","url":"https://bpbd.semarangkota.go.id/"}]]}}}
+
+--------------------
+ Query ID : 999995281
+--------------------
+{"update_id":999995281,"message":{"message_id":640,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954109,"text":"Kabar Terbaru"}}
+--------------------
+ Response for : 999995281
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Kabar Terbaru Untuk:
+
+    [reply_markup] => {"keyboard":[["Bencana","Cuaca"],["Home"]],"resize_keyboard":true}
+    [chat_id] => 1149501355
+)
+
+Response: {"ok":true,"result":{"message_id":641,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954110,"text":"Kabar Terbaru Untuk:"}}
+
+--------------------
+ Query ID : 999995282
+--------------------
+{"update_id":999995282,"message":{"message_id":642,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954114,"text":"Home"}}
+--------------------
+ Response for : 999995282
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 1149501355
+)
+
+Response: {"ok":true,"result":{"message_id":643,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954116,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995283
+--------------------
+{"update_id":999995283,"message":{"message_id":644,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954118,"text":"Kabar Terbaru"}}
+--------------------
+ Response for : 999995283
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Kabar Terbaru Untuk:
+
+    [reply_markup] => {"keyboard":[["Bencana","Cuaca"],["Home"]],"resize_keyboard":true}
+    [chat_id] => 1149501355
+)
+
+Response: {"ok":true,"result":{"message_id":645,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954120,"text":"Kabar Terbaru Untuk:"}}
+
+--------------------
+ Query ID : 999995284
+--------------------
+{"update_id":999995284,"message":{"message_id":646,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954121,"text":"Bencana"}}
+--------------------
+ Response for : 999995284
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Dapatkan update terbaru dari BPBD Kota Semarang, Aktifkan notifikasi di Channel ini:
+https://t.me/BPBD_Semarang/
+    [chat_id] => 1149501355
+)
+
+Response: {"ok":true,"result":{"message_id":647,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954123,"text":"Dapatkan update terbaru dari BPBD Kota Semarang, Aktifkan notifikasi di Channel ini: \nhttps://t.me/BPBD_Semarang/","entities":[{"offset":86,"length":27,"type":"url"}]}}
+
+--------------------
+ Query ID : 999995285
+--------------------
+{"update_id":999995285,"message":{"message_id":648,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954130,"text":"Cuaca"}}
+--------------------
+ Response for : 999995285
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Informasi Cuaca terbaru di Kota Semarang,
+Sumber: bmkg
+https://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35
+    [chat_id] => 1149501355
+)
+
+Response: {"ok":true,"result":{"message_id":649,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954131,"text":"Informasi Cuaca terbaru di Kota Semarang, \nSumber: bmkg \nhttps://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35","entities":[{"offset":57,"length":85,"type":"url"}]}}
+
+--------------------
+ Query ID : 999995286
+--------------------
+{"update_id":999995286,"message":{"message_id":650,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954134,"text":"Home"}}
+--------------------
+ Response for : 999995286
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 1149501355
+)
+
+Response: {"ok":true,"result":{"message_id":651,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954135,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995287
+--------------------
+{"update_id":999995287,"message":{"message_id":652,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954137,"text":"Sosial Media"}}
+--------------------
+ Response for : 999995287
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Silakan akses link sosial media official dibawah
+    [reply_markup] => {"inline_keyboard":[[{"text":"\ud83d\udfe1Instagram","url":"https:\/\/www.instagram.com\/bpbd_semarang\/"},{"text":"\ud83d\udfe2 Twitter","url":"https:\/\/twitter.com\/BPBD_Semarang"}],[{"text":"\ud83d\udd35 Facebook","url":"https:\/\/www.facebook.com\/bpbd.semarang"},{"text":"\ud83d\udd34 Youtube","url":"https:\/\/www.youtube.com\/channel\/UCx3mUCT3iKzFQ2T0oHrZQUQ\/"}]]}
+    [chat_id] => 1149501355
+)
+
+Response: {"ok":true,"result":{"message_id":653,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1591954138,"text":"Silakan akses link sosial media official dibawah","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udfe1Instagram","url":"https://www.instagram.com/bpbd_semarang/"},{"text":"\ud83d\udfe2 Twitter","url":"https://twitter.com/BPBD_Semarang"}],[{"text":"\ud83d\udd35 Facebook","url":"https://www.facebook.com/bpbd.semarang"},{"text":"\ud83d\udd34 Youtube","url":"https://www.youtube.com/channel/UCx3mUCT3iKzFQ2T0oHrZQUQ/"}]]}}}
+OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.telegram.org:443

@@ -1,0 +1,328 @@
+jo@botphp:/media/sf_bpbdsmgbot$ php index.php
+PHPTelebot version 1.3
+Mode    : Long Polling
+Debug   : ON
+
+--------------------
+ Query ID : 999995193
+--------------------
+{"update_id":999995193,"message":{"message_id":469,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591795557,"text":"Contact"}}
+--------------------
+ Response for : 999995193
+--------------------
+Method: sendMessage
+Data: (
+    [text] => [Silakan kirim email anda kesini](mailto:bpbdsemarangkota@gmail.com)
+    [parse_mode] => Markdown
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":470,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591795616,"text":"Silakan kirim email anda kesini","entities":[{"offset":0,"length":31,"type":"text_link","url":"http://mailto:bpbdsemarangkota@gmail.com/"}]}}
+
+--------------------
+ Query ID : 999995194
+--------------------
+{"update_id":999995194,"message":{"message_id":471,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591795632,"text":"Website"}}
+--------------------
+ Response for : 999995194
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Silakan akses link dibawah
+    [reply_markup] => {"inline_keyboard":[[{"text":"\ud83c\udf10 Web BPBD Semarang","url":"https:\/\/bpbd.semarangkota.go.id"}]]}
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":472,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591795634,"text":"Silakan akses link dibawah","reply_markup":{"inline_keyboard":[[{"text":"\ud83c\udf10 Web BPBD Semarang","url":"https://bpbd.semarangkota.go.id/"}]]}}}
+
+--------------------
+ Query ID : 999995195
+--------------------
+{"update_id":999995195,"message":{"message_id":473,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1591795639,"text":"asu"}}
+--------------------
+ Response for : 999995195
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995196
+--------------------
+{"update_id":999995196,"message":{"message_id":474,"from":{"id":649555824,"is_bot":false,"first_name":"Ferianti"},"chat":{"id":649555824,"first_name":"Ferianti","type":"private"},"date":1591797594,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995196
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 649555824
+)
+
+Response: {"ok":true,"result":{"message_id":475,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":649555824,"first_name":"Ferianti","type":"private"},"date":1591797599,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995197
+--------------------
+{"update_id":999995197,"message":{"message_id":476,"from":{"id":649555824,"is_bot":false,"first_name":"Ferianti","language_code":"en"},"chat":{"id":649555824,"first_name":"Ferianti","type":"private"},"date":1591797604,"text":"Contact"}}
+--------------------
+ Response for : 999995197
+--------------------
+Method: sendMessage
+Data: (
+    [text] => [Silakan kirim email anda kesini](mailto:bpbdsemarangkota@gmail.com)
+    [parse_mode] => Markdown
+    [chat_id] => 649555824
+)
+
+Response: {"ok":true,"result":{"message_id":478,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":649555824,"first_name":"Ferianti","type":"private"},"date":1591797619,"text":"Silakan kirim email anda kesini","entities":[{"offset":0,"length":31,"type":"text_link","url":"http://mailto:bpbdsemarangkota@gmail.com/"}]}}
+
+--------------------
+ Query ID : 999995198
+--------------------
+{"update_id":999995198,"message":{"message_id":477,"from":{"id":649555824,"is_bot":false,"first_name":"Ferianti","language_code":"en"},"chat":{"id":649555824,"first_name":"Ferianti","type":"private"},"date":1591797609,"text":"Kabar Terbaru"}}
+--------------------
+ Response for : 999995198
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Kabar Terbaru Untuk:
+
+    [reply_markup] => {"keyboard":[["Bencana","Cuaca"],["Home"]],"resize_keyboard":true}
+    [chat_id] => 649555824
+)
+
+Response: {"ok":true,"result":{"message_id":479,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":649555824,"first_name":"Ferianti","type":"private"},"date":1591797622,"text":"Kabar Terbaru Untuk:"}}
+
+--------------------
+ Query ID : 999995199
+--------------------
+{"update_id":999995199,"message":{"message_id":480,"from":{"id":649555824,"is_bot":false,"first_name":"Ferianti","language_code":"en"},"chat":{"id":649555824,"first_name":"Ferianti","type":"private"},"date":1591797628,"text":"Cuaca"}}
+--------------------
+ Response for : 999995199
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Informasi Cuaca terbaru di Kota Semarang,
+Sumber: bmkg
+https://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35
+    [chat_id] => 649555824
+)
+
+Response: {"ok":true,"result":{"message_id":481,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":649555824,"first_name":"Ferianti","type":"private"},"date":1591797630,"text":"Informasi Cuaca terbaru di Kota Semarang, \nSumber: bmkg \nhttps://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35","entities":[{"offset":57,"length":85,"type":"url"}]}}
+^C
+jo@botphp:/media/sf_bpbdsmgbot$ php index.php
+PHPTelebot version 1.3
+Mode    : Long Polling
+Debug   : ON
+
+--------------------
+ Query ID : 999995200
+--------------------
+{"update_id":999995200,"message":{"message_id":482,"from":{"id":1239933065,"is_bot":false,"first_name":"Solechah"},"chat":{"id":1239933065,"first_name":"Solechah","type":"private"},"date":1591797909,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995200
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 1239933065
+)
+
+Response: {"ok":true,"result":{"message_id":488,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1239933065,"first_name":"Solechah","type":"private"},"date":1591799602,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995201
+--------------------
+{"update_id":999995201,"message":{"message_id":483,"from":{"id":1200847926,"is_bot":false,"first_name":"davinasf","last_name":".","username":"cloudystars21"},"chat":{"id":1200847926,"first_name":"davinasf","last_name":".","username":"cloudystars21","type":"private"},"date":1591798285,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995201
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 1200847926
+)
+
+Response: {"ok":true,"result":{"message_id":489,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1200847926,"first_name":"davinasf","last_name":".","username":"cloudystars21","type":"private"},"date":1591799604,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995202
+--------------------
+{"update_id":999995202,"message":{"message_id":484,"from":{"id":1200847926,"is_bot":false,"first_name":"davinasf","last_name":".","username":"cloudystars21","language_code":"id"},"chat":{"id":1200847926,"first_name":"davinasf","last_name":".","username":"cloudystars21","type":"private"},"date":1591798310,"text":"Apa Bencana yang ada di Semarang?"}}
+--------------------
+ Response for : 999995202
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995203
+--------------------
+{"update_id":999995203,"message":{"message_id":485,"from":{"id":643143014,"is_bot":false,"first_name":"shodiqul","last_name":"w","language_code":"id"},"chat":{"id":643143014,"first_name":"shodiqul","last_name":"w","type":"private"},"date":1591799457,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995203
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 643143014
+)
+
+Response: {"ok":true,"result":{"message_id":490,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":643143014,"first_name":"shodiqul","last_name":"w","type":"private"},"date":1591799606,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995204
+--------------------
+{"update_id":999995204,"message":{"message_id":486,"from":{"id":619001846,"is_bot":false,"first_name":"Ika","last_name":"Dewi Maesaroh"},"chat":{"id":619001846,"first_name":"Ika","last_name":"Dewi Maesaroh","type":"private"},"date":1591799490,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995204
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 619001846
+)
+
+Response: {"ok":true,"result":{"message_id":491,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":619001846,"first_name":"Ika","last_name":"Dewi Maesaroh","type":"private"},"date":1591799608,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995205
+--------------------
+{"update_id":999995205,"message":{"message_id":487,"from":{"id":619001846,"is_bot":false,"first_name":"Ika","last_name":"Dewi Maesaroh","language_code":"id"},"chat":{"id":619001846,"first_name":"Ika","last_name":"Dewi Maesaroh","type":"private"},"date":1591799517,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995205
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 619001846
+)
+
+Response: {"ok":true,"result":{"message_id":492,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":619001846,"first_name":"Ika","last_name":"Dewi Maesaroh","type":"private"},"date":1591799610,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995206
+--------------------
+{"update_id":999995206,"message":{"message_id":493,"from":{"id":643143014,"is_bot":false,"first_name":"shodiqul","last_name":"w","language_code":"id"},"chat":{"id":643143014,"first_name":"shodiqul","last_name":"w","type":"private"},"date":1591799626,"text":"Kabar Terbaru"}}
+--------------------
+ Response for : 999995206
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Kabar Terbaru Untuk:
+
+    [reply_markup] => {"keyboard":[["Bencana","Cuaca"],["Home"]],"resize_keyboard":true}
+    [chat_id] => 643143014
+)
+
+Response: {"ok":true,"result":{"message_id":494,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":643143014,"first_name":"shodiqul","last_name":"w","type":"private"},"date":1591799628,"text":"Kabar Terbaru Untuk:"}}
+
+--------------------
+ Query ID : 999995207
+--------------------
+{"update_id":999995207,"message":{"message_id":495,"from":{"id":643143014,"is_bot":false,"first_name":"shodiqul","last_name":"w","language_code":"id"},"chat":{"id":643143014,"first_name":"shodiqul","last_name":"w","type":"private"},"date":1591799633,"text":"Cuaca"}}
+--------------------
+ Response for : 999995207
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Informasi Cuaca terbaru di Kota Semarang,
+Sumber: bmkg
+https://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35
+    [chat_id] => 643143014
+)
+
+Response: {"ok":true,"result":{"message_id":496,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":643143014,"first_name":"shodiqul","last_name":"w","type":"private"},"date":1591799635,"text":"Informasi Cuaca terbaru di Kota Semarang, \nSumber: bmkg \nhttps://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35","entities":[{"offset":57,"length":85,"type":"url"}]}}
+
+--------------------
+ Query ID : 999995208
+--------------------
+{"update_id":999995208,"message":{"message_id":497,"from":{"id":1115956280,"is_bot":false,"first_name":"Yosua","username":"Yoshu01"},"chat":{"id":1115956280,"first_name":"Yosua","username":"Yoshu01","type":"private"},"date":1591801671,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995208
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 1115956280
+)
+
+Response: {"ok":true,"result":{"message_id":498,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1115956280,"first_name":"Yosua","username":"Yoshu01","type":"private"},"date":1591801678,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995209
+--------------------
+{"update_id":999995209,"message":{"message_id":499,"from":{"id":1115956280,"is_bot":false,"first_name":"Yosua","username":"Yoshu01","language_code":"id"},"chat":{"id":1115956280,"first_name":"Yosua","username":"Yoshu01","type":"private"},"date":1591801690,"text":"Kabar Terbaru"}}
+--------------------
+ Response for : 999995209
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Kabar Terbaru Untuk:
+
+    [reply_markup] => {"keyboard":[["Bencana","Cuaca"],["Home"]],"resize_keyboard":true}
+    [chat_id] => 1115956280
+)
+
+Response: {"ok":true,"result":{"message_id":500,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1115956280,"first_name":"Yosua","username":"Yoshu01","type":"private"},"date":1591801692,"text":"Kabar Terbaru Untuk:"}}
+
+--------------------
+ Query ID : 999995210
+--------------------
+{"update_id":999995210,"message":{"message_id":501,"from":{"id":1115956280,"is_bot":false,"first_name":"Yosua","username":"Yoshu01","language_code":"id"},"chat":{"id":1115956280,"first_name":"Yosua","username":"Yoshu01","type":"private"},"date":1591801701,"text":"Home"}}
+--------------------
+ Response for : 999995210
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 1115956280
+)
+
+Response: {"ok":true,"result":{"message_id":502,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1115956280,"first_name":"Yosua","username":"Yoshu01","type":"private"},"date":1591801703,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995211
+--------------------
+{"update_id":999995211,"message":{"message_id":503,"from":{"id":1115956280,"is_bot":false,"first_name":"Yosua","username":"Yoshu01","language_code":"id"},"chat":{"id":1115956280,"first_name":"Yosua","username":"Yoshu01","type":"private"},"date":1591801713,"text":"Kabar Terbaru"}}
+--------------------
+ Response for : 999995211
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Kabar Terbaru Untuk:
+
+    [reply_markup] => {"keyboard":[["Bencana","Cuaca"],["Home"]],"resize_keyboard":true}
+    [chat_id] => 1115956280
+)
+
+Response: {"ok":true,"result":{"message_id":504,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1115956280,"first_name":"Yosua","username":"Yoshu01","type":"private"},"date":1591801715,"text":"Kabar Terbaru Untuk:"}}
+
+--------------------
+ Query ID : 999995212
+--------------------
+{"update_id":999995212,"message":{"message_id":505,"from":{"id":1115956280,"is_bot":false,"first_name":"Yosua","username":"Yoshu01","language_code":"id"},"chat":{"id":1115956280,"first_name":"Yosua","username":"Yoshu01","type":"private"},"date":1591801719,"text":"Cuaca"}}
+--------------------
+ Response for : 999995212
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Informasi Cuaca terbaru di Kota Semarang,
+Sumber: bmkg
+https://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35
+    [chat_id] => 1115956280
+)
+
+Response: {"ok":true,"result":{"message_id":506,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1115956280,"first_name":"Yosua","username":"Yoshu01","type":"private"},"date":1591801721,"text":"Informasi Cuaca terbaru di Kota Semarang, \nSumber: bmkg \nhttps://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Semarang&AreaID=501262&Prov=35","entities":[{"offset":57,"length":85,"type":"url"}]}}
