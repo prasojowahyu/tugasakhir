@@ -9,3 +9,15 @@
 
 4. Try creating bot by learning php language:
     - PHP Lang
+
+5. Cari info windows server 2016
+    - cara poll php ke internet
+
+6. Buat tutorial cara akses bot bpbd
+    -poster/pdf/video
+
+7. Akses server BPBD
+    - TeamV 1 100 539 439 = Pusdatin2018
+
+8. file id video 
+AAMCBQADGQEAAgMIXucbQGU_i5yUlgKGt5nfYeCCoxIAAiABAAIoWDlXQP3G_we2GhFb0KZrdAADAQAHbQADzx4AAhoE

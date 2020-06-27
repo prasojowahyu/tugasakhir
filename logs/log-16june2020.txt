@@ -1,0 +1,159 @@
+root@botphp:/media/sf_bpbdsmgbot# php index.php
+PHPTelebot version 1.3
+Mode    : Long Polling
+Debug   : ON
+
+--------------------
+ Query ID : 999995376
+--------------------
+{"update_id":999995376,"message":{"message_id":777,"from":{"id":834366153,"is_bot":false,"first_name":"Bagoes","last_name":"Ganteng","language_code":"id"},"chat":{"id":834366153,"first_name":"Bagoes","last_name":"Ganteng","type":"private"},"date":1592218402,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995376
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 834366153
+)
+
+Response: {"ok":true,"result":{"message_id":792,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":834366153,"first_name":"Bagoes","last_name":"Ganteng","type":"private"},"date":1592288829,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995377
+--------------------
+{"update_id":999995377,"message":{"message_id":778,"from":{"id":1215942770,"is_bot":false,"first_name":"Suci","last_name":"Novitasari","language_code":"id"},"chat":{"id":1215942770,"first_name":"Suci","last_name":"Novitasari","type":"private"},"date":1592218632,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995377
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 1215942770
+)
+
+Response: {"ok":true,"result":{"message_id":793,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1215942770,"first_name":"Suci","last_name":"Novitasari","type":"private"},"date":1592288830,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995378
+--------------------
+{"update_id":999995378,"message":{"message_id":779,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1592274382,"text":"Pacar"}}
+--------------------
+ Response for : 999995378
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995379
+--------------------
+{"update_id":999995379,"message":{"message_id":780,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1592274393,"text":"Ayam geprek"}}
+--------------------
+ Response for : 999995379
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995380
+--------------------
+{"update_id":999995380,"message":{"message_id":781,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1592274397,"text":"Tahu bakso"}}
+--------------------
+ Response for : 999995380
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995381
+--------------------
+{"update_id":999995381,"message":{"message_id":782,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1592274401,"text":"Martabuk"}}
+--------------------
+ Response for : 999995381
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995382
+--------------------
+{"update_id":999995382,"message":{"message_id":783,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1592274403,"text":"Risoles"}}
+--------------------
+ Response for : 999995382
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995383
+--------------------
+{"update_id":999995383,"message":{"message_id":784,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1592274406,"text":"Mie afui"}}
+--------------------
+ Response for : 999995383
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995384
+--------------------
+{"update_id":999995384,"message":{"message_id":785,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1592274408,"text":"Mekdi"}}
+--------------------
+ Response for : 999995384
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995385
+--------------------
+{"update_id":999995385,"message":{"message_id":786,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1592274415,"text":"Keepci"}}
+--------------------
+ Response for : 999995385
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995386
+--------------------
+{"update_id":999995386,"message":{"message_id":787,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1592274423,"text":"Burgerking"}}
+--------------------
+ Response for : 999995386
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995387
+--------------------
+{"update_id":999995387,"message":{"message_id":788,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1592274430,"text":"Pijahat"}}
+--------------------
+ Response for : 999995387
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995388
+--------------------
+{"update_id":999995388,"message":{"message_id":789,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1592274435,"text":"Hallo"}}
+--------------------
+ Response for : 999995388
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995389
+--------------------
+{"update_id":999995389,"message":{"message_id":790,"from":{"id":1149501355,"is_bot":false,"first_name":"Fuji","last_name":"K. Handayani","language_code":"id"},"chat":{"id":1149501355,"first_name":"Fuji","last_name":"K. Handayani","type":"private"},"date":1592274438,"text":"Assalamualaikum"}}
+--------------------
+ Response for : 999995389
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995390
+--------------------
+{"update_id":999995390,"channel_post":{"message_id":9,"chat":{"id":-1001377193446,"title":"BPBD_Semarangchannel","username":"BPBD_Semarang","type":"channel"},"date":1592276288,"text":"Media\nSelalu jaga kebersihan dan sterilitas diri agar senantiasa terjaga dari paparan virus. Semoga kita semua selalu diberi kesehatan. . . #semaranghebat #BergerakBersama #BersamaMelawanCorona #semarangtangguh #covid19 #SemarangLawanCorona #LawanBersamaCorona #bpbdkotasemarang","entities":[{"offset":0,"length":5,"type":"text_link","url":"https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/103538757_183562183098152_6557469467851008198_n.jpg?_nc_cat=103&_nc_sid=8ae9d6&_nc_ohc=3ouMKKNCxTYAX95XI5W&_nc_ht=scontent-iad3-1.cdninstagram.com&oh=689069b7bb1e4637f49083b974eb8ce8&oe=5F0C7CE5"},{"offset":140,"length":14,"type":"hashtag"},{"offset":155,"length":16,"type":"hashtag"},{"offset":172,"length":21,"type":"hashtag"},{"offset":194,"length":16,"type":"hashtag"},{"offset":211,"length":8,"type":"hashtag"},{"offset":220,"length":20,"type":"hashtag"},{"offset":241,"length":19,"type":"hashtag"},{"offset":261,"length":17,"type":"hashtag"}]}}
+--------------------
+ Response for : 999995390
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995391
+--------------------
+{"update_id":999995391,"message":{"message_id":791,"from":{"id":876001130,"is_bot":false,"first_name":"Dian","last_name":"Arif","language_code":"id"},"chat":{"id":876001130,"first_name":"Dian","last_name":"Arif","type":"private"},"date":1592276745,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995391
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 876001130
+)
+
+Response: {"ok":true,"result":{"message_id":794,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":876001130,"first_name":"Dian","last_name":"Arif","type":"private"},"date":1592288831,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}

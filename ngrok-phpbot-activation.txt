@@ -1,0 +1,16 @@
+Token				940226436:AAFlrS5O19tMDWpCq-3YM2eMJb4CL16nqsU
+Web Interface                 	http://127.0.0.1:4040
+Forwarding                    	https://2071991d22a5.ngrok.io -> http://192.168.1.50:888
+
+1. Aktifkan apache server di C:\xampp-phpbot\xampp-control.exe
+2. buka cmd di folder C:\ngrok-phpbot 
+	ketik command ngrok http 192.168.1.150:8888
+3. jika sudah berjalan server ngrok, copy link https forwardingnya, contoh https://2071991d22a5.ngrok.io
+4. buka web browser, paste&go link berikut:
+	https://api.telegram.org/bot940226436:AAFlrS5O19tMDWpCq-3YM2eMJb4CL16nqsU/setWebhook?url=
+	^^tujuannya untuk menghapus link webhook/server sebelumnya.
+5. paste&go link berikut, untuk konfigurasi link webhook baru:
+	https://api.telegram.org/bot940226436:AAFlrS5O19tMDWpCq-3YM2eMJb4CL16nqsU/setWebhook?url={masukkan link https forwarding no.3}
+	contoh:
+	https://api.telegram.org/bot940226436:AAFlrS5O19tMDWpCq-3YM2eMJb4CL16nqsU/setWebhook?url=https://2071991d22a5.ngrok.io/
+6. untuk memastikan server aktif, buka http://127.0.0.1:4040, pilih link https. coba balas respon di bot telegram. update terbaru akan muncul jika berhasil

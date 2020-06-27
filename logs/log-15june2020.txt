@@ -1,0 +1,384 @@
+root@botphp:/media/sf_bpbdsmgbot# php index.php
+PHPTelebot version 1.3
+Mode    : Long Polling
+Debug   : ON
+
+--------------------
+ Query ID : 999995321
+--------------------
+{"update_id":999995321,"message":{"message_id":706,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193186,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995321
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":707,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193222,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995322
+--------------------
+{"update_id":999995322,"message":{"message_id":708,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193338,"text":"Kabar Terbaru"}}
+--------------------
+ Response for : 999995322
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Kabar Terbaru Untuk:
+
+    [reply_markup] => {"keyboard":[["Bencana","Cuaca"],["Home"]],"resize_keyboard":true}
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":709,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193340,"text":"Kabar Terbaru Untuk:"}}
+
+--------------------
+ Query ID : 999995323
+--------------------
+{"update_id":999995323,"message":{"message_id":710,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193348,"text":"Bencana"}}
+--------------------
+ Response for : 999995323
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Dapatkan update terbaru dari BPBD Kota Semarang, Aktifkan notifikasi di Channel ini:
+https://t.me/BPBD_Semarang/
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":711,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193349,"text":"Dapatkan update terbaru dari BPBD Kota Semarang, Aktifkan notifikasi di Channel ini: \nhttps://t.me/BPBD_Semarang/","entities":[{"offset":86,"length":27,"type":"url"}]}}
+
+--------------------
+ Query ID : 999995324
+--------------------
+{"update_id":999995324,"message":{"message_id":712,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193457,"text":"Home"}}
+--------------------
+ Response for : 999995324
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":713,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193458,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995325
+--------------------
+{"update_id":999995325,"message":{"message_id":714,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193467,"text":"Contact"}}
+--------------------
+ Response for : 999995325
+--------------------
+Method: sendMessage
+Data: (
+    [text] => [Silakan kirim email anda kesini](mailto:bpbdsemarangkota@gmail.com)
+    [parse_mode] => Markdown
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":715,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193469,"text":"Silakan kirim email anda kesini","entities":[{"offset":0,"length":31,"type":"text_link","url":"http://mailto:bpbdsemarangkota@gmail.com/"}]}}
+
+--------------------
+ Query ID : 999995326
+--------------------
+{"update_id":999995326,"message":{"message_id":716,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193501,"text":"Website"}}
+--------------------
+ Response for : 999995326
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Silakan akses link dibawah
+    [reply_markup] => {"inline_keyboard":[[{"text":"\ud83c\udf10 Web BPBD Semarang","url":"https:\/\/bpbd.semarangkota.go.id"}]]}
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":717,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193504,"text":"Silakan akses link dibawah","reply_markup":{"inline_keyboard":[[{"text":"\ud83c\udf10 Web BPBD Semarang","url":"https://bpbd.semarangkota.go.id/"}]]}}}
+
+--------------------
+ Query ID : 999995327
+--------------------
+{"update_id":999995327,"message":{"message_id":718,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193522,"text":"Sosial Media"}}
+--------------------
+ Response for : 999995327
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Silakan akses link sosial media official dibawah
+    [reply_markup] => {"inline_keyboard":[[{"text":"\ud83d\udfe1Instagram","url":"https:\/\/www.instagram.com\/bpbd_semarang\/"},{"text":"\ud83d\udfe2 Twitter","url":"https:\/\/twitter.com\/BPBD_Semarang"}],[{"text":"\ud83d\udd35 Facebook","url":"https:\/\/www.facebook.com\/bpbd.semarang"},{"text":"\ud83d\udd34 Youtube","url":"https:\/\/www.youtube.com\/channel\/UCx3mUCT3iKzFQ2T0oHrZQUQ\/"}]]}
+    [chat_id] => 597970717
+)
+
+Response: {"ok":true,"result":{"message_id":719,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":597970717,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","type":"private"},"date":1592193524,"text":"Silakan akses link sosial media official dibawah","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udfe1Instagram","url":"https://www.instagram.com/bpbd_semarang/"},{"text":"\ud83d\udfe2 Twitter","url":"https://twitter.com/BPBD_Semarang"}],[{"text":"\ud83d\udd35 Facebook","url":"https://www.facebook.com/bpbd.semarang"},{"text":"\ud83d\udd34 Youtube","url":"https://www.youtube.com/channel/UCx3mUCT3iKzFQ2T0oHrZQUQ/"}]]}}}
+
+--------------------
+ Query ID : 999995328
+--------------------
+{"update_id":999995328,"message":{"message_id":720,"from":{"id":1273007464,"is_bot":false,"first_name":"Winarsono"},"chat":{"id":1273007464,"first_name":"Winarsono","type":"private"},"date":1592193998,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995328
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 1273007464
+)
+
+Response: {"ok":true,"result":{"message_id":721,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1273007464,"first_name":"Winarsono","type":"private"},"date":1592193999,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995329
+--------------------
+{"update_id":999995329,"message":{"message_id":722,"from":{"id":1273007464,"is_bot":false,"first_name":"Winarsono","language_code":"id"},"chat":{"id":1273007464,"first_name":"Winarsono","type":"private"},"date":1592194002,"text":"Sosial Media"}}
+--------------------
+ Response for : 999995329
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Silakan akses link sosial media official dibawah
+    [reply_markup] => {"inline_keyboard":[[{"text":"\ud83d\udfe1Instagram","url":"https:\/\/www.instagram.com\/bpbd_semarang\/"},{"text":"\ud83d\udfe2 Twitter","url":"https:\/\/twitter.com\/BPBD_Semarang"}],[{"text":"\ud83d\udd35 Facebook","url":"https:\/\/www.facebook.com\/bpbd.semarang"},{"text":"\ud83d\udd34 Youtube","url":"https:\/\/www.youtube.com\/channel\/UCx3mUCT3iKzFQ2T0oHrZQUQ\/"}]]}
+    [chat_id] => 1273007464
+)
+
+Response: {"ok":true,"result":{"message_id":723,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":1273007464,"first_name":"Winarsono","type":"private"},"date":1592194004,"text":"Silakan akses link sosial media official dibawah","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udfe1Instagram","url":"https://www.instagram.com/bpbd_semarang/"},{"text":"\ud83d\udfe2 Twitter","url":"https://twitter.com/BPBD_Semarang"}],[{"text":"\ud83d\udd35 Facebook","url":"https://www.facebook.com/bpbd.semarang"},{"text":"\ud83d\udd34 Youtube","url":"https://www.youtube.com/channel/UCx3mUCT3iKzFQ2T0oHrZQUQ/"}]]}}}
+
+--------------------
+ Query ID : 999995330
+--------------------
+{"update_id":999995330,"message":{"message_id":724,"from":{"id":586754381,"is_bot":false,"first_name":"Pusdatin","last_name":"BPBD"},"chat":{"id":586754381,"first_name":"Pusdatin","last_name":"BPBD","type":"private"},"date":1592194817,"text":"\/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995330
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 586754381
+)
+
+Response: {"ok":true,"result":{"message_id":725,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":586754381,"first_name":"Pusdatin","last_name":"BPBD","type":"private"},"date":1592194819,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+
+--------------------
+ Query ID : 999995331
+--------------------
+{"update_id":999995331,"message":{"message_id":726,"from":{"id":586754381,"is_bot":false,"first_name":"Pusdatin","last_name":"BPBD","language_code":"id"},"chat":{"id":586754381,"first_name":"Pusdatin","last_name":"BPBD","type":"private"},"date":1592194823,"text":"Website"}}
+--------------------
+ Response for : 999995331
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Silakan akses link dibawah
+    [reply_markup] => {"inline_keyboard":[[{"text":"\ud83c\udf10 Web BPBD Semarang","url":"https:\/\/bpbd.semarangkota.go.id"}]]}
+    [chat_id] => 586754381
+)
+
+Response: {"ok":true,"result":{"message_id":727,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":586754381,"first_name":"Pusdatin","last_name":"BPBD","type":"private"},"date":1592194824,"text":"Silakan akses link dibawah","reply_markup":{"inline_keyboard":[[{"text":"\ud83c\udf10 Web BPBD Semarang","url":"https://bpbd.semarangkota.go.id/"}]]}}}
+
+--------------------
+ Query ID : 999995332
+--------------------
+{"update_id":999995332,"message":{"message_id":728,"from":{"id":586754381,"is_bot":false,"first_name":"Pusdatin","last_name":"BPBD","language_code":"id"},"chat":{"id":586754381,"first_name":"Pusdatin","last_name":"BPBD","type":"private"},"date":1592194831,"text":"Kabar Terbaru"}}
+--------------------
+ Response for : 999995332
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Kabar Terbaru Untuk:
+
+    [reply_markup] => {"keyboard":[["Bencana","Cuaca"],["Home"]],"resize_keyboard":true}
+    [chat_id] => 586754381
+)
+
+Response: {"ok":true,"result":{"message_id":729,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":586754381,"first_name":"Pusdatin","last_name":"BPBD","type":"private"},"date":1592194833,"text":"Kabar Terbaru Untuk:"}}
+
+--------------------
+ Query ID : 999995333
+--------------------
+{"update_id":999995333,"message":{"message_id":730,"from":{"id":586754381,"is_bot":false,"first_name":"Pusdatin","last_name":"BPBD","language_code":"id"},"chat":{"id":586754381,"first_name":"Pusdatin","last_name":"BPBD","type":"private"},"date":1592194836,"text":"Bencana"}}
+--------------------
+ Response for : 999995333
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Dapatkan update terbaru dari BPBD Kota Semarang, Aktifkan notifikasi di Channel ini:
+https://t.me/BPBD_Semarang/
+    [chat_id] => 586754381
+)
+
+Response: {"ok":true,"result":{"message_id":731,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":586754381,"first_name":"Pusdatin","last_name":"BPBD","type":"private"},"date":1592194842,"text":"Dapatkan update terbaru dari BPBD Kota Semarang, Aktifkan notifikasi di Channel ini: \nhttps://t.me/BPBD_Semarang/","entities":[{"offset":86,"length":27,"type":"url"}]}}
+
+--------------------
+ Query ID : 999995334
+--------------------
+{"update_id":999995334,"message":{"message_id":732,"from":{"id":586754381,"is_bot":false,"first_name":"Pusdatin","last_name":"BPBD","language_code":"id"},"chat":{"id":586754381,"first_name":"Pusdatin","last_name":"BPBD","type":"private"},"date":1592194891,"text":"Home"}}
+--------------------
+ Response for : 999995334
+--------------------
+Method: sendMessage
+Data: (
+    [text] => 👋🏻 Hai, Silakan pilih menu disini..
+
+    [reply_markup] => {"keyboard":[["Kabar Terbaru","Website"],["Sosial Media","Contact"]],"resize_keyboard":true}
+    [chat_id] => 586754381
+)
+
+Response: {"ok":true,"result":{"message_id":733,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":586754381,"first_name":"Pusdatin","last_name":"BPBD","type":"private"},"date":1592194902,"text":"\ud83d\udc4b\ud83c\udffb Hai, Silakan pilih menu disini.."}}
+OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.telegram.org:443
+Connection reset by 192.168.43.189 port 22
+
+root@botphp:/media/sf_bpbdsmgbot# php index.php
+PHPTelebot version 1.3
+Mode    : Long Polling
+Debug   : ON
+
+--------------------
+ Query ID : 999995335
+--------------------
+{"update_id":999995335,"message":{"message_id":734,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-448443346,"title":"BPBD Kota Semarang","type":"group","all_members_are_administrators":true},"date":1592196046,"group_chat_created":true}}
+--------------------
+ Response for : 999995335
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995336
+--------------------
+{"update_id":999995336,"message":{"message_id":735,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-448443346,"title":"BPBD Kota Semarang","type":"group","all_members_are_administrators":true},"date":1592196047,"new_chat_photo":[{"file_id":"AgACAgUAAxkBAAIC317m-88RhRzN28zXBn6qONAVHBfmAAJSqjEb2144Vz-4o5aIYUBncq1ja3QAAwEAAwIAA2EAA-XWAQABGgQ","file_unique_id":"AQADcq1ja3QAA-XWAQAB","file_size":5331,"width":160,"height":160},{"file_id":"AgACAgUAAxkBAAIC317m-88RhRzN28zXBn6qONAVHBfmAAJSqjEb2144Vz-4o5aIYUBncq1ja3QAAwEAAwIAA2IAA-bWAQABGgQ","file_unique_id":"AQADcq1ja3QAA-bWAQAB","file_size":13056,"width":320,"height":320},{"file_id":"AgACAgUAAxkBAAIC317m-88RhRzN28zXBn6qONAVHBfmAAJSqjEb2144Vz-4o5aIYUBncq1ja3QAAwEAAwIAA2MAA-fWAQABGgQ","file_unique_id":"AQADcq1ja3QAA-fWAQAB","file_size":30899,"width":640,"height":640}]}}
+--------------------
+ Response for : 999995336
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995337
+--------------------
+{"update_id":999995337,"message":{"message_id":736,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-448443346,"title":"BPBD Kota Semarang","type":"group","all_members_are_administrators":false},"date":1592196094,"migrate_to_chat_id":-1001110160490}}
+--------------------
+ Response for : 999995337
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995338
+--------------------
+{"update_id":999995338,"message":{"message_id":1,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-1001110160490,"title":"BPBD Kota Semarang","type":"supergroup"},"date":1592196094,"migrate_from_chat_id":-448443346}}
+--------------------
+ Response for : 999995338
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995339
+--------------------
+{"update_id":999995339,"message":{"message_id":2,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-1001110160490,"title":"BPBD Kota Semarang","username":"bpbdkotasemarang","type":"supergroup"},"date":1592196131,"new_chat_participant":{"id":240044026,"is_bot":true,"first_name":"IFTTT","username":"IFTTT"},"new_chat_member":{"id":240044026,"is_bot":true,"first_name":"IFTTT","username":"IFTTT"},"new_chat_members":[{"id":240044026,"is_bot":true,"first_name":"IFTTT","username":"IFTTT"}]}}
+--------------------
+ Response for : 999995339
+--------------------
+Method: sendMessage
+Data: (
+    [text] => Halo Selamat Bergabung, <b>IFTTT</b>!
+
+Ini adalah grup percobaan bot, mohon maaf kalau mengganggu notifikasimu ya, hehe :V
+Kalo mau coba, silakan bisa cobain perintah ini:
+/start = inisialisasi bot
+/ping = tes response user ke bot
+/time = untuk lihat waktu sekarang
+
+Silahkan dicoba, <b>IFTTT</b>
+    [parse_mode] => html
+    [chat_id] => -1001110160490
+)
+
+Response: {"ok":true,"result":{"message_id":15,"from":{"id":1167185320,"is_bot":true,"first_name":"Bot BPBD Kota Semarang [Unofficial Test]","username":"bpbdsemarang_6php1bot"},"chat":{"id":-1001110160490,"title":"BPBD Kota Semarang","username":"bpbdkotasemarang","type":"supergroup"},"date":1592196916,"text":"Halo Selamat Bergabung, IFTTT!\n\nIni adalah grup percobaan bot, mohon maaf kalau mengganggu notifikasimu ya, hehe :V \nKalo mau coba, silakan bisa cobain perintah ini: \n/start = inisialisasi bot \n/ping = tes response user ke bot \n/time = untuk lihat waktu sekarang \n\nSilahkan dicoba, IFTTT","entities":[{"offset":24,"length":5,"type":"bold"},{"offset":167,"length":6,"type":"bot_command"},{"offset":194,"length":5,"type":"bot_command"},{"offset":228,"length":5,"type":"bot_command"},{"offset":282,"length":5,"type":"bold"}]}}
+
+--------------------
+ Query ID : 999995340
+--------------------
+{"update_id":999995340,"message":{"message_id":3,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-1001110160490,"title":"BPBD Kota Semarang","username":"bpbdkotasemarang","type":"supergroup"},"date":1592196131,"text":"\/start@IFTTT c","entities":[{"offset":0,"length":12,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995340
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995341
+--------------------
+{"update_id":999995341,"message":{"message_id":5,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-1001110160490,"title":"BPBD Kota Semarang","username":"bpbdkotasemarang","type":"supergroup"},"date":1592196175,"text":"\/start@IFTTT c","entities":[{"offset":0,"length":12,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995341
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995342
+--------------------
+{"update_id":999995342,"message":{"message_id":7,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-1001110160490,"title":"BPBD Kota Semarang","username":"bpbdkotasemarang","type":"supergroup"},"date":1592196282,"text":"\/start@IFTTT c","entities":[{"offset":0,"length":12,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995342
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995343
+--------------------
+{"update_id":999995343,"message":{"message_id":9,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-1001110160490,"title":"BPBD Kota Semarang","username":"bpbdkotasemarang","type":"supergroup"},"date":1592196399,"text":"\/start@IFTTT c","entities":[{"offset":0,"length":12,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995343
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995344
+--------------------
+{"update_id":999995344,"message":{"message_id":11,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-1001110160490,"title":"BPBD Kota Semarang","username":"bpbdkotasemarang","type":"supergroup"},"date":1592196455,"text":"\/start@IFTTT c","entities":[{"offset":0,"length":12,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995344
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995345
+--------------------
+{"update_id":999995345,"message":{"message_id":13,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-1001110160490,"title":"BPBD Kota Semarang","username":"bpbdkotasemarang","type":"supergroup"},"date":1592196616,"text":"\/start@IFTTT c","entities":[{"offset":0,"length":12,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995345
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995346
+--------------------
+{"update_id":999995346,"channel_post":{"message_id":8,"chat":{"id":-1001377193446,"title":"BPBD_Semarangchannel","username":"BPBD_Semarang","type":"channel"},"date":1592196933,"text":"Update data COVID-19 di Kota Semarang per hari ini, 15 Juni 2020 pukul 10.00\u2026 https:\/\/t.co\/oq3L3spZhV","entities":[{"offset":78,"length":23,"type":"url"}]}}
+--------------------
+ Response for : 999995346
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995347
+--------------------
+{"update_id":999995347,"message":{"message_id":16,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-1001110160490,"title":"BPBD Kota Semarang","username":"bpbdkotasemarang","type":"supergroup"},"date":1592197042,"text":"\/connect_group@IFTTT","entities":[{"offset":0,"length":20,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995347
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995348
+--------------------
+{"update_id":999995348,"message":{"message_id":18,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-1001110160490,"title":"BPBD Kota Semarang","username":"bpbdkotasemarang","type":"supergroup"},"date":1592197113,"text":"\/start@IFTTT c","entities":[{"offset":0,"length":12,"type":"bot_command"}]}}
+--------------------
+ Response for : 999995348
+--------------------
+--NO RESPONSE--
+--------------------
+ Query ID : 999995349
+--------------------
+{"update_id":999995349,"message":{"message_id":20,"from":{"id":597970717,"is_bot":false,"first_name":"Wahyu","last_name":"Prasojo","username":"prasojowahyu","language_code":"en"},"chat":{"id":-1001110160490,"title":"BPBD Kota Semarang","username":"bpbdkotasemarang","type":"supergroup"},"date":1592197292,"left_chat_participant":{"id":240044026,"is_bot":true,"first_name":"IFTTT","username":"IFTTT"},"left_chat_member":{"id":240044026,"is_bot":true,"first_name":"IFTTT","username":"IFTTT"}}}
+--------------------
+ Response for : 999995349
+--------------------
+--NO RESPONSE--OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.telegram.org:443
+
+OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.telegram.org:443
+OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.telegram.org:443
+
+AAMCBQADGQEAAgMIXucbQGU_i5yUlgKGt5nfYeCCoxIAAiABAAIoWDlXQP3G_we2GhFb0KZrdAADAQAHbQADzx4AAhoE
