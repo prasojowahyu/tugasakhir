@@ -1,0 +1,10 @@
+Nama		: Wahyu Prasojo
+NIM		: 4112316025
+TTL		: Ketapang / 12 Juli 1998
+No Telp		: 081361626164
+Surel		: wahyuprasojo@students.unnes.ac.id
+Alamat		: Dsn. Tanjungsari, Ds. Bandasari, Kec. Air Upas, Kab. Ketapang, Kalimantan Barat.
+
+Judul		: Pengembangan Sistem Informasi Siaga Bencana di Kota Semarang Menggunakan Bot Telegram
+Pembimbing	: Dr. Iqbal Kharisudin, M.Sc. 	197908052005011003
+Kajur		: Dr. Mulyono, M.Si. 		197009021997021001
