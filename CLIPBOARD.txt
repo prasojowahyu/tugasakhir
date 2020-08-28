@@ -8,3 +8,13 @@ Alamat		: Dsn. Tanjungsari, Ds. Bandasari, Kec. Air Upas, Kab. Ketapang, Kaliman
 Judul		: Pengembangan Sistem Informasi Siaga Bencana di Kota Semarang Menggunakan Bot Telegram
 Pembimbing	: Dr. Iqbal Kharisudin, M.Sc. 	197908052005011003
 Kajur		: Dr. Mulyono, M.Si. 		197009021997021001
+
+
+2.1.	Sistem Informasi
+2.2.	Kecerdasaan Buatan
+2.3.	PHP: Hypertext Preprocessor
+2.4.	Telegram
+2.5.	Chatbot
+2.6.	Siaga Bencana
+
+
